@@ -24,21 +24,21 @@ export const fn = (empanadas_3, empanadas_4, empanadas_5) => {
    } 
  
    //  // Calcular el costo medio por mitad para cada tipo de empanada
-   // let costosMedios = [(empanadas_3 / 3) * 12, (empanadas_4 / 3) * 14, (empanadas_5 / 3) * 16];
+   // let costoTotal = [(empanadas_3 / 3) * 12, (empanadas_4 / 3) * 14, (empanadas_5 / 3) * 16];
    // let aux = 0;
 
-   // costosMedios.sort((a, b) => a - b);
+   // costoTotal.sort((a, b) => a - b);
    // for (let i = 0; i < 3; i++) {
-   //    if (costosMedios[i] <14) {
-   //       aux += Math.floor(costosMedios[i]) + 1;
-   //    } else if (costosMedios[i] < 142) {
-   //       aux += Math.floor(costosMedios[i]) + 1;
-   //    } else if (costosMedios[i] < 139) {
-   //       aux += Math.floor(costosMedios[i]) + 1;   
+   //    if (costoTotal[i] <14) {
+   //       aux += Math.floor(costoTotal[i]) + 1;
+   //    } else if (costoTotal[i] < 142) {
+   //       aux += Math.floor(costoTotal[i]) + 1;
+   //    } else if (costoTotal[i] < 139) {
+   //       aux += Math.floor(costoTotal[i]) + 1;   
    //    } 
    // }
-   // costosMedios = aux-2;
-   // return costosMedios; //;
+   // costoTotal = aux-2;
+   // return costoTotal; //;
 
    return costoTotal; //;
 };

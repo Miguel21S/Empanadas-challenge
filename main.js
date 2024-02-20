@@ -40,7 +40,7 @@ export const fn = (empanadas_3, empanadas_4, empanadas_5) => {
    // costoTotal = aux-2;
    // return costoTotal; //;
 
-   return costoTotal; //;
+   return Math.floor(costoTotal); //;
 };
 
-console.log(fn(3, 3, 0));
+console.log(fn(1,1,1));
